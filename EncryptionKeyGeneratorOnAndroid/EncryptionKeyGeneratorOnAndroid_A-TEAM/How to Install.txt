@@ -1,0 +1,40 @@
+Encryption Key Generator on Android V 1.0.0
+Android 2.2(Froyo)
+
+Here, we explain some steps to sideload the Encryption Key Generator application on to your android mobile device. The .apk file for the Encryption Key Generator application may be found in the Install folder.
+
+The Simple Method
+----------------------------------------------------------------------
+
+Android applications are packaged in an APK container. What sideloading essentially means is the installation of Android applications from any other source besides the Android Market.
+
+The simplest method to sideload Android apps is by copying the APK files to the SD card. One important precondition here is that your Android device allows sideloading. To enable this setting, browse to Settings, then Applications and ‘Development Settings’. Here you have to allow installation from ‘Unknown Sources’. Afterwards the steps are as follows:
+
+1. Connect your device to your computer via USB and use it as a mass storage device to allow interaction with the device’s SD card.
+2. Copy the APK file to the desired location on the SD card.
+3. Unplug the phone.
+4. Make sure to use a File Explorer application and browse to the location of the APK. Any of the file explorer apps that are available in the Android Market will work.
+5. Press or long-press (depending on the file explorer app) the APK file and select ‘install’.
+6. Follow the on-screen steps for installation of the APK.
+
+Using Dropbox
+----------------------------------------------------------------------
+The above-described method is the most straightforward and unaided method to use. For Dropbox users, there is an even easier method. The steps using Dropbox for Android are as follows:
+
+1. Copy the downloaded Android APK to any folder within your Dropbox folder, as long as it gets uploaded.
+2. Wait for the upload to complete and use Dropbox for Android to browse to the location where the APK is saved.
+3. Select the APK and let Dropbox finish the download. Afterwards follow the on-screen instructions to installing the Android app.
+
+Using Dropbox for this purpose entirely omits the need to plug in your device as your computer gets synchronized with your phone.
+
+Alternative Methods and Tools
+----------------------------------------------------------------------
+Although the practice of sideloading Android applications is not necessarily too difficult there are custom tools available to ease the process a bit. An interesting tool is called the ‘Sideload Wonder Machine’, developed by Android Central. You can use this tool to sideload apps as follows:
+
+1. Download the application and install it on your Mac, Windows or Linux computer.
+2. Make sure that your phone’s drivers are installed for the computer to recognize it. Also make sure the USB Debugging setting is turned on, on your Android device.
+3. Start the Sideload Wonder Machine and select ‘Choose a File’ to search for your APK file.
+4. Once your APK file is loaded and your phone connected to your computer select ‘Go’.
+5. Now Sideload Wonder Machine will automatically install the APK on your phone so that you are ready to use the app straight away.
+
+The Sideload Wonder Machine is perhaps the easiest method to use. It is not only designed to just provide for the easy sideloading of apps but also to allow for sideloading in cases where your carrier has made it impossible to do so. This method works for both rooted and unrooted devices.

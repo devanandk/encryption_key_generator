@@ -1,0 +1,3 @@
+The Encryption Key Generator Application is an eclipse project file developed in eclipse indigo with ADT plugin version 17.0 installed. It requires the Android SDK with development tools for android version 2.2 installed on the system for exection.
+
+The Login Portal application is a Java Swing based desktop application developed using NetBeans version 7.0. It requires JDK version 1.7 for execution.

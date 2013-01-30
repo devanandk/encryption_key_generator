@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginRight="19dp"
+        android:text="@string/exitButtonText" />
+
+    <Button
+        android:id="@+id/AboutButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ExitButton"
+        android:layout_alignBottom="@+id/ExitButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:text="@string/aboutButtonText" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/splashViewTitle"
+        android:src="@drawable/barrier_again_long" />
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="14dp"
+        android:text="@string/KeyDisplayViewClock" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/EncryptionKeyDefault"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25pt"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/keyDisplayInfo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="splashViewTitle">Encryption Key Generator</string>
+    <string name="app_name">Encryption Key Generator</string>
+    <string name="aboutButtonTitle">About</string>
+    <string name="exitButtonTitle">Exit</string>
+    <string name="splashLoadText">Initializing . . .</string>
+    <string name="keyDisplayInfo">Enter the code displayed below in the Password Field</string>
+    <string name="EncryptionKeyDefault">XXXXXXXX</string>
+    <string name="aboutButtonText">About</string>
+    <string name="exitButtonText">Exit</string>
+    <string name="AboutUsTitle">About Us</string>
+    <string name="AboutUsContent">Encryption Key Generator Application - Version 1.0</string>
+    <string name="AboutUsDeveloperTeamCode">Development Team (A-TEAM)</string>
+    <string name="AboutUsMembers">Devanand.K, Abhilash.A, Anoop.K.A, Noushad.M</string>
+    <string name="AboutUsAppDescription">The application produces encryption keys for the user. The generated encryption key is intended for use to login to a secure remote network. The Application Produces a new and unique Key every time you run it.</string>
+    <string name="AboutUsDescriptionTitle">Application Description</string>
+    <string name="AboutUsBackButton">Back</string>
+    <string name="KeyDisplayViewClock">Digital Clock</string>
+    <string name="buttontextcolor">#ff7d00</string>
+    <string name="GenerateButtonText">Generate New Key</string>
+    <string name="pressButtonInfo">Click the button below to generate a new encryption key</string>
+
+</resources>
